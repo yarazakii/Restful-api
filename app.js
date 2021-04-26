@@ -7,17 +7,28 @@ const app = express();                  // return an object
 app.use(express.json());   // adding a piece of middleware 
 
 const courses = [
-    { id: 1, name: 'course1', code:'akl201' },
-    { id: 2, name: 'course2' , code:'jsn292' },
-    { id: 3, name: 'course3' , code: 'nsd202'}
+    {  
+      name: 'Control',
+      id: 1,
+      code:'CSE344',
+      description:'control course for computer science' },
+    {  name: 'Networks' , 
+       id: 2,
+       code:'CSE334' }
+   
 ];
 
 
 const students= [
-    {id: 1, name: "ahmed", code: 'jdnjkjd'},
-    {id: 2, name: "aly", code: 'ksndkdw'}
+    {
+        name: 'Yara Zaki',
+        id: 1,
+        code: '1601672'},
+    {
+        name: 'Mohamed Hussein',
+        id: 2,
+        code: '160082'}
 ]; 
-
 
 
 
