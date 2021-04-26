@@ -1,0 +1,17 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "simple knowledge base app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "yara zaki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.1.0",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7"
+  }
+}
